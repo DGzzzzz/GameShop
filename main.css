@@ -5,8 +5,9 @@
 }
 
 header,
-section h2
-section h3
+section h1,
+section h2,
+section h3,
 form button{
     font-family: 'Bungee', cursive;
     font-weight: normal;
@@ -40,6 +41,7 @@ header nav li a {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 header .container,
@@ -96,7 +98,8 @@ section p {
     margin-right: 8px;
 }
 
-.social-links li a {
+.social-links li a,
+.container li a {
     text-decoration: none;
 }
 
@@ -110,7 +113,7 @@ section p {
 }
 
 form input,
-form textarea
+form textarea,
 form button {
     display: block;
     width: 320px;
@@ -120,7 +123,7 @@ form button {
 
 form textarea {
     resize: none;
-    height: 124px;
+    height: 180px;
 }
 
 section h3 {
@@ -132,8 +135,20 @@ form button {
     color: #ecf0f1;
     border: none;
     cursor: pointer;
+    font-family: 'Bungee', cursive;
 }
 
 form button:hover {
     background-color: #465fa1;
 }
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color:#182c61;
+    color:#ecf0f1;
+    padding: 16px 0;
+}
+
